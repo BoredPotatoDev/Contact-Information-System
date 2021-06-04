@@ -29,11 +29,6 @@ namespace Contact_Information_System
             data[4] = AGE.Text;
             data[5] = CN.Text;
 
-            // Opens the file "Contact_Info.txt" reads the old data and stores it in the variable "old data"
-            StreamReader sr = new StreamReader(@"Contact_Info.txt");
-            string oldata = sr.ReadLine();
-            sr.Close();
-            
             // Writes the new data on top of the old data
             StreamWriter sw = new StreamWriter(@"Contact_Info.txt",true);
             sw.WriteLine(data[0] + ", "
@@ -41,9 +36,7 @@ namespace Contact_Information_System
                          + data[2] + ", "
                          + data[3] + ", "
                          + data[4] + ", "
-                         + data[5] 
-                         + Environment.NewLine
-                         + oldata);
+                         + data[5]);
             sw.Close();
 
             // Clear all text box inputs and shows you have been registered
