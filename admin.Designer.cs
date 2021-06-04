@@ -48,6 +48,7 @@ namespace Contact_Information_System
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(574, 332);
             this.Controls.Add(this.dataGridView1);
+            this.MaximizeBox = false;
             this.Name = "admin";
             this.Text = "admin";
             this.Load += new System.EventHandler(this.admin_Load_1);

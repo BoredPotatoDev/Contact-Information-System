@@ -210,6 +210,7 @@ namespace Contact_Information_System
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "register";
             this.Text = "Register";
             this.ResumeLayout(false);
