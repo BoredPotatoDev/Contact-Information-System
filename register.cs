@@ -44,7 +44,7 @@ namespace Contact_Information_System
             FN.Text = String.Empty;
             LN.Text = String.Empty;
             MI.Text = String.Empty;
-            BD.Text = ("MM/DD/YYYY");
+            BD.Text = String.Empty;
             AGE.Text = String.Empty;
             CN.Text = String.Empty;
         }
