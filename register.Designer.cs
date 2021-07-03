@@ -62,7 +62,7 @@ namespace Contact_Information_System
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(25, 96);
+            this.label2.Location = new System.Drawing.Point(19, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 22);
             this.label2.TabIndex = 1;
@@ -108,9 +108,9 @@ namespace Contact_Information_System
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
             this.label6.Location = new System.Drawing.Point(18, 273);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 22);
+            this.label6.Size = new System.Drawing.Size(88, 22);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Age:";
+            this.label6.Text = "Address";
             // 
             // label7
             // 

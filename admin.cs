@@ -27,7 +27,7 @@ namespace Contact_Information_System
             dt.Columns.Add("Last Name", typeof(string));
             dt.Columns.Add("Middle Initial", typeof(string));
             dt.Columns.Add("Birth Date", typeof(string));
-            dt.Columns.Add("Age", typeof(string));
+            dt.Columns.Add("Address", typeof(string));
             dt.Columns.Add("Contact no.", typeof(string));
 
             dataGridView1.DataSource = dt;
